@@ -9,7 +9,7 @@ def process_response(response):
     if response.status_code == 204:
         ResultResponse.success = True
         ResultResponse.body = response.text
-        logger.info("接口的返回内容>>>" + response.text)
+        logger.info("接口的返回内容>>>" + response.text, ensure_ascii=False)
     elif 199 < response.status_code < 301:
         ResultResponse.success = True
         ResultResponse.body = response.json()
