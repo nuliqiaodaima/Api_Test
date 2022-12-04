@@ -1,0 +1,45 @@
+[2022-11-24 10:46:27,362][conftest.py19][INFO]:开始执行测试用例
+[2022-11-24 10:46:27,368][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-24 10:46:27,368][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-24 10:46:27,369][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-24 10:46:28,483][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/这还拿不下你免费api:api.aa1.cn免费api:api.aa1.cn-微胖女生免费api:api.aa1.cn-变装免费api:api.aa1.cn-对镜拍免费api:api.aa1.cn-免费api:api.aa1.cn抖音.mp4"}
+[2022-11-24 10:46:28,484][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-24 13:39:11,432][conftest.py19][INFO]:开始执行测试用例
+[2022-11-24 13:39:11,467][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-24 13:39:11,468][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-24 13:39:11,468][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-24 13:39:12,836][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/喜欢就去冲免费api:api.aa1.cn别等到我恋爱了免费api:api.aa1.cn再去听反方向的钟免费api:api.aa1.cn-免费api:api.aa1.cn抖音.mp4"}
+[2022-11-24 13:39:12,837][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-24 14:28:32,384][conftest.py19][INFO]:开始执行测试用例
+[2022-11-24 14:28:32,486][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-24 14:28:32,487][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-24 14:28:32,487][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-24 14:28:33,456][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/他真可爱-得想办法和他约会才行---抖音.mp4"}
+[2022-11-24 14:28:33,457][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-24 14:29:50,061][conftest.py19][INFO]:开始执行测试用例
+[2022-11-24 14:29:50,067][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-24 14:29:50,067][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-24 14:29:50,068][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-24 14:29:51,020][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/-完美身材--这谁顶得住啊--好看的小姐姐--美女--舞蹈-@DOU+---抖音.mp4"}
+[2022-11-24 14:29:51,021][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-24 15:21:23,919][conftest.py19][INFO]:开始执行测试用例
+[2022-11-24 15:21:23,926][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-24 15:21:23,927][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-24 15:21:23,927][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-24 15:21:24,485][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/-美女免费api:api.aa1.cn-大长腿免费api:api.aa1.cn-黑丝搭配免费api:api.aa1.cn-这谁顶得住啊免费api:api.aa1.cn免费api:api.aa1.cn免费api:api.aa1.cn抖音.mp4"}
+[2022-11-24 15:21:24,486][conftest.py21][INFO]:测试用例执行完毕

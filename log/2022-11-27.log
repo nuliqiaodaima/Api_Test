@@ -1,0 +1,12 @@
+[2022-11-27 17:43:14,848][mysql_util.py38][INFO]:执行sql：select * from user_verifycode where mobile = '17600000000'
+[2022-11-27 17:43:54,956][mysql_util.py38][INFO]:执行sql：use vue_shop
+[2022-11-27 17:43:55,000][mysql_util.py38][INFO]:执行sql：select * from user_verifycode where mobile = '17600000000'
+[2022-11-27 17:48:31,359][mysql_util.py38][INFO]:执行sql：select * from users_verifycode where mobile = '17600000000' order by add_time desc limit 1
+[2022-11-27 17:49:04,720][mysql_util.py38][INFO]:执行sql：select code from users_verifycode where mobile = '17600000000' order by add_time desc limit 1
+[2022-11-27 17:52:13,910][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-27 17:52:13,911][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-27 17:52:13,911][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-27 17:52:14,186][response_util.py15][INFO]:接口的返回内容>>>{"mobile": "17600000000"}

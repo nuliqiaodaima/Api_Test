@@ -1,0 +1,161 @@
+[2022-11-25 11:53:00,361][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 11:53:00,557][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 11:56:59,686][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 11:56:59,694][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 11:56:59,694][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 11:56:59,694][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 11:57:00,140][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/别划走！《好像变了又没变》-座机画质--变装---抖音.mp4"}
+[2022-11-25 11:57:00,142][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 11:58:08,720][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 11:58:08,727][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 11:58:08,727][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 11:58:08,727][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 11:58:09,060][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/大数据还是兄弟情？-mama变装免费api:api.aa1.cn-免费api:api.aa1.cn抖音.mp4"}
+[2022-11-25 11:58:09,060][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 11:58:09,064][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 11:58:09,070][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-dy-girl/index.php
+[2022-11-25 11:58:09,071][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 11:58:09,071][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "aa1": "json"
+}
+[2022-11-25 11:58:09,420][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//v.api.aa1.cn/api/api-dy-girl/video/0023.mp4  api.aa1.cn  免费视频API.mp4"}
+[2022-11-25 11:58:09,421][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:08:31,513][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:08:31,522][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 12:08:31,523][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:08:31,523][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 12:08:31,903][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/我不理解---抖音.mp4"}
+[2022-11-25 12:08:31,904][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:08:31,907][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:08:31,913][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-dy-girl/index.php
+[2022-11-25 12:08:31,913][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:08:31,913][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "aa1": "json"
+}
+[2022-11-25 12:08:32,230][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//v.api.aa1.cn/api/api-dy-girl/video/0171.mp433包 api.aa1.cn  免费视频API.mp4"}
+[2022-11-25 12:08:32,232][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:09:57,813][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:09:57,820][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 12:09:57,821][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:09:57,821][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 12:09:58,076][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/又不评论，系统还以为你不喜欢呢免费api:api.aa1.cn-变装免费api:api.aa1.cn-宜家新年玩出新腔调免费api:api.aa1.cn免费api:api.aa1.cn@IK免费api:api.aa1.cn-免费api:api.aa1.cn抖音.mp4"}
+[2022-11-25 12:09:58,077][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:09:58,093][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:09:58,099][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-dy-girl/index.php
+[2022-11-25 12:09:58,100][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:09:58,102][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "aa1": "json"
+}
+[2022-11-25 12:09:58,335][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//v.api.aa1.cn/api/api-dy-girl/video/0066.mp40001包 api.aa1.cn  免费视频API.mp4"}
+[2022-11-25 12:09:58,336][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:11:56,383][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:11:56,389][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 12:11:56,390][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:11:56,390][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 12:11:56,694][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/早上coffee晚上alcohol！今天去10月最适合打工人去的珀莱雅---抖音.mp4"}
+[2022-11-25 12:11:56,694][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 12:11:56,728][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 12:11:56,734][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-dy-girl/index.php
+[2022-11-25 12:11:56,735][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 12:11:56,736][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "aa1": "json"
+}
+[2022-11-25 12:11:57,024][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//v.api.aa1.cn/api/api-dy-girl/video/0041.mp434包 api.aa1.cn  免费视频API.mp4"}
+[2022-11-25 12:11:57,025][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 16:49:59,310][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 16:49:59,384][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 16:49:59,384][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 16:49:59,384][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 16:49:59,689][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/第一次说话-好紧张！！！---抖音.mp4"}
+[2022-11-25 16:49:59,690][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 16:52:12,969][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 16:52:12,975][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 16:52:12,975][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 16:52:12,976][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 16:52:13,255][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/遇到这样的邻居，你敢上去要vx吗？-第三视角--御姐---抖音.mp4"}
+[2022-11-25 16:52:13,255][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 17:03:09,415][conftest.py19][INFO]:开始执行测试用例
+[2022-11-25 17:03:09,433][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-25 17:03:09,433][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-25 17:03:09,433][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-25 17:03:09,705][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/你行不行，不行让别人来-气质美女小姐姐--大长腿---抖音.mp4"}
+[2022-11-25 17:03:09,707][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-25 19:09:56,792][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:09:56,809][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:09:56,809][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:09:57,196][response_util.py12][INFO]:接口的返回内容>>>{"mobile": "17600000000"}
+[2022-11-25 19:12:15,211][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:12:15,211][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:12:15,211][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:12:15,354][response_util.py12][INFO]:接口的返回内容>>>{"mobile": "17600000000"}
+[2022-11-25 19:13:08,914][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:13:08,914][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:13:08,914][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:13:09,090][response_util.py15][INFO]:接口状态码不是2开头，请检查！
+[2022-11-25 19:18:29,267][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:18:29,267][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:18:29,267][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:18:29,460][response_util.py12][INFO]:接口的返回内容>>>{"mobile": "17600000000"}
+[2022-11-25 19:19:10,001][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:19:10,001][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:19:10,001][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:19:10,135][response_util.py15][INFO]:接口状态码不是2开头，请检查！
+[2022-11-25 19:20:52,553][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:20:52,553][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:20:52,553][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:20:52,733][response_util.py15][INFO]:接口的返回内容>>>{"mobile": "17600000000"}
+[2022-11-25 19:20:56,432][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/code/
+[2022-11-25 19:20:56,432][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-11-25 19:20:56,432][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "mobile": 17600000000
+}
+[2022-11-25 19:20:56,637][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-11-25 19:20:56,637][response_util.py15][INFO]:接口的返回内容>>>{"mobile": ["距离上次发送未超过1分钟"]}
+[2022-11-25 19:53:36,749][mysql_util.py30][INFO]:执行sql：select * from user_verifycode where mobile = '17600000000'

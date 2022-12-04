@@ -1,0 +1,246 @@
+[2022-11-23 09:26:22,205][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 09:26:22,242][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/teladress/teladress
+[2022-11-23 09:26:22,242][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-23 09:26:22,243][rest_client.py50][INFO]:接口请求的data参数>>>
+{
+  "mobile": 15985567824
+}
+[2022-11-23 09:26:22,243][rest_client.py57][INFO]:接口请求的请求头参数>>>
+{
+  "X-APISpace-Token": "gi9xffrz2obz386hg0rauqmerby5cbt1",
+  "Authorization-Type": "apikey",
+  "Content-Type": "application/x-www-form-urlencoded"
+}
+[2022-11-23 09:26:22,635][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 09:32:35,773][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 09:32:35,774][test_post.py8][INFO]:开始执行test_post方法
+[2022-11-23 09:32:35,779][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/posts
+[2022-11-23 09:32:35,779][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-23 09:32:35,779][rest_client.py53][INFO]:接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 2
+}
+[2022-11-23 09:32:36,099][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 09:32:44,498][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 09:32:44,509][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/teladress/teladress
+[2022-11-23 09:32:44,509][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-23 09:32:44,509][rest_client.py50][INFO]:接口请求的data参数>>>
+{
+  "mobile": 15985567824
+}
+[2022-11-23 09:32:44,509][rest_client.py57][INFO]:接口请求的请求头参数>>>
+{
+  "X-APISpace-Token": "gi9xffrz2obz386hg0rauqmerby5cbt1",
+  "Authorization-Type": "apikey",
+  "Content-Type": "application/x-www-form-urlencoded"
+}
+[2022-11-23 09:32:44,759][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:06:59,499][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:06:59,608][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:07:34,448][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:07:34,545][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:11:09,583][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:11:09,680][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:13:23,566][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:13:23,597][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/teladress/teladress
+[2022-11-23 10:13:23,597][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-23 10:13:23,597][rest_client.py50][INFO]:接口请求的data参数>>>
+{
+  "mobile": 15985567824
+}
+[2022-11-23 10:13:23,597][rest_client.py57][INFO]:接口请求的请求头参数>>>
+{
+  "X-APISpace-Token": "gi9xffrz2obz386hg0rauqmerby5cbt1",
+  "Authorization-Type": "apikey",
+  "Content-Type": "application/x-www-form-urlencoded"
+}
+[2022-11-23 10:13:24,100][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:21:05,394][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:21:05,489][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:24:43,817][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:24:43,823][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php?
+[2022-11-23 10:24:43,823][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 10:24:43,823][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 10:24:44,107][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:24:57,994][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:24:58,000][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 10:24:58,000][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 10:24:58,000][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 10:24:58,238][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:30:30,445][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:30:30,451][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 10:30:30,452][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 10:30:30,452][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 10:30:30,731][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 10:30:55,446][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 10:30:55,451][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 10:30:55,451][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 10:30:55,452][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 10:30:55,690][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 11:31:59,048][practise.py20][INFO]:None
+[2022-11-23 11:32:01,270][practise.py20][INFO]:None
+[2022-11-23 11:32:03,466][practise.py20][INFO]:None
+[2022-11-23 11:32:05,821][practise.py20][INFO]:None
+[2022-11-23 11:32:08,021][practise.py20][INFO]:None
+[2022-11-23 13:39:53,018][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 13:39:53,143][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 13:40:16,481][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 13:40:16,497][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 13:40:16,497][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 13:40:16,497][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 13:40:16,771][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 13:40:46,704][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 13:40:46,709][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 13:40:46,709][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 13:40:46,709][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 13:40:46,986][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 13:40:59,891][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 13:40:59,897][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 13:40:59,897][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 13:40:59,897][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 13:41:00,173][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:05:57,180][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:05:57,226][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:05:57,226][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:05:57,226][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:05:57,644][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:56:58,632][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:56:58,682][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:56:58,682][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:56:58,682][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:56:59,117][test_tiktok.py13][INFO]:111
+[2022-11-23 15:56:59,117][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:57:30,863][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:57:30,869][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:57:30,869][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:57:30,870][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:57:31,070][test_tiktok.py13][INFO]://ml.v.api.aa1.cn/girl-11-02//video/-踢腿变装--变装--跟上队伍，限时返场---抖音.mp4
+[2022-11-23 15:57:31,070][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:58:07,042][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:58:07,047][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:58:07,048][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:58:07,048][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:58:07,242][test_tiktok.py13][INFO]://ml.v.api.aa1.cn/girl-11-02//video/-翘臀美臀--妩媚勾魂风情万种--妩媚性感--小蛮腰扭起来--黑丝搭配-免费api:api.aa1.cn-抖音.mp4
+[2022-11-23 15:58:07,243][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:58:08,792][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:58:08,799][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:58:08,799][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:58:08,799][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:58:08,986][test_tiktok.py13][INFO]://ml.v.api.aa1.cn/girl-11-02//video/你最喜欢的玩具是什么？-对镜拍免费api:api.aa1.cn-免费api:api.aa1.cn抖音.mp4
+[2022-11-23 15:58:08,987][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 15:58:10,276][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 15:58:10,282][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 15:58:10,282][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 15:58:10,282][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 15:58:10,470][test_tiktok.py13][INFO]://ml.v.api.aa1.cn/girl-11-02//video/小女仆登场-变装---抖音.mp4
+[2022-11-23 15:58:10,471][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:26:59,192][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:26:59,228][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:26:59,228][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:26:59,228][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:26:59,517][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:27:41,414][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:27:41,420][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:27:41,420][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:27:41,420][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:27:41,911][api.py26][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/\u65b0\u6280\u80fd\u2605\u5403\u3001\u7761\u3001\u5b85!\u2661=\u2022\u3145\uff1c=)\u2606\u514d\u8d39api:api.aa1.cn-\u514d\u8d39api:api.aa1.cn\u6296\u97f3.mp4"}
+[2022-11-23 20:27:41,912][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:27:51,002][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:27:51,010][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:27:51,010][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:27:51,010][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:27:51,248][api.py26][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/\u5c0f\u5b69\u5b50\u5c31\u522b\u770b\u4e86-\u9ed1\u4e1d\u642d\u914d--\u5fa1\u59d0--\u5927\u957f\u817f---\u6296\u97f3.mp4"}
+[2022-11-23 20:27:51,249][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:29:48,138][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:29:48,145][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:29:48,145][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:29:48,145][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:29:51,620][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:31:09,808][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:31:09,814][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:31:09,814][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:31:09,815][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:31:10,130][api.py26][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/-真丝腿精-性感--美女--黑丝搭配---抖音.mp4"}
+[2022-11-23 20:31:10,131][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 20:37:32,941][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 20:37:32,948][rest_client.py47][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 20:37:32,948][rest_client.py48][INFO]:接口请求的方法>>>GET
+[2022-11-23 20:37:32,948][rest_client.py55][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 20:37:33,253][response_util.py8][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/回复-@江西省最后的深情的评论---满意了吗-对镜拍--辣妹---抖音.mp4"}
+[2022-11-23 20:37:33,253][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 22:38:49,280][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 22:38:49,334][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 22:38:49,334][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-23 22:38:49,334][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 22:39:10,751][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-23 23:05:46,801][conftest.py19][INFO]:开始执行测试用例
+[2022-11-23 23:05:46,807][rest_client.py48][INFO]:接口请求的地址>>>https://v.api.aa1.cn/api/api-girl-11-02/index.php
+[2022-11-23 23:05:46,807][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-11-23 23:05:46,807][rest_client.py57][INFO]:接口请求的params参数>>>
+{
+  "type": "json"
+}
+[2022-11-23 23:05:47,197][response_util.py12][INFO]:接口的返回内容>>>{"error": 0, "result": 200, "mp4": "//ml.v.api.aa1.cn/girl-11-02//video/评论区可以发照片了，试试吧-辣妹免费api:api.aa1.cn-大长腿免费api:api.aa1.cn免费api:api.aa1.cn免费api:api.aa1.cn抖音.mp4"}
+[2022-11-23 23:05:47,198][conftest.py21][INFO]:测试用例执行完毕

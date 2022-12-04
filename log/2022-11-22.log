@@ -1,0 +1,25 @@
+[2022-11-22 16:11:21,094][conftest.py19][INFO]:开始执行测试用例
+[2022-11-22 16:11:21,110][test_post.py8][INFO]:开始执行test_post方法
+[2022-11-22 16:11:21,125][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/posts
+[2022-11-22 16:11:21,125][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-22 16:11:21,125][rest_client.py53][INFO]:接口请求的json参数>>>
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 2
+}
+[2022-11-22 16:11:21,583][conftest.py21][INFO]:测试用例执行完毕
+[2022-11-22 16:11:52,038][conftest.py19][INFO]:开始执行测试用例
+[2022-11-22 16:11:52,049][rest_client.py47][INFO]:接口请求的地址>>>https://eolink.o.apispace.com/teladress/teladress
+[2022-11-22 16:11:52,050][rest_client.py48][INFO]:接口请求的方法>>>POST
+[2022-11-22 16:11:52,050][rest_client.py50][INFO]:接口请求的data参数>>>
+{
+  "mobile": 15985567824
+}
+[2022-11-22 16:11:52,050][rest_client.py57][INFO]:接口请求的请求头参数>>>
+{
+  "X-APISpace-Token": "gi9xffrz2obz386hg0rauqmerby5cbt1",
+  "Authorization-Type": "apikey",
+  "Content-Type": "application/x-www-form-urlencoded"
+}
+[2022-11-22 16:11:52,338][conftest.py21][INFO]:测试用例执行完毕

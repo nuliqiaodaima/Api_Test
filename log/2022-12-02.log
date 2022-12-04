@@ -1,0 +1,204 @@
+[2022-12-02 20:06:38,810][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:06:38,810][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:06:38,811][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:06:39,181][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc1ODcsImVtYWlsIjpudWxsfQ.euHvU4-vgCBdeg_uMoggAKV-SDVDUvIesVIbxscBVIc"}
+[2022-12-02 20:06:39,195][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 20:06:39,195][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 20:06:39,196][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc1ODcsImVtYWlsIjpudWxsfQ.euHvU4-vgCBdeg_uMoggAKV-SDVDUvIesVIbxscBVIc"
+}
+[2022-12-02 20:06:39,579][response_util.py15][INFO]:接口的返回内容>>>[{"id": 1638, "pay_status": "paying", "order_sn": "2022113018082416275192", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 18:08:24", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113018082416275192%22%2C%22out_trade_no%22%3A%222022113018082416275192%22%2C%22total_amount%22%3A5050.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A06%3A27&version=1.0&sign=NRXpkJgHl7ylDPmgH8ZG4ubfcTXrLLSvUYORM%2F4aejzPhF4ZPEJ2cLhVOHgIij%2B2mqyABMKudVmKY%2F%2BleP80Ic204OdbMv8xaFSZuAseqGKGIyNkVRC1AIj2xadybdSWiUuvN005Ek11OwjZfTfArKASqt4dZK8Cs3TKuLUjNNV1%2BAu2TxeWFGjG2%2FmO23pqWM2xM7gwEpC3zSMCN30nvMLtGoW0YtyRGjTPei82C2tHx6txN9B2IvW9AqKxGJj3qGBNkXVZqvyBKNExUpwmuWZ4w6rJDr3RPMPkokV38rGYbEVYlmjlQ7NGTppgHDLX933DX1Wbr2RIvgCgt%2B5Kig%3D%3D", "post_script": "123", "order_mount": 5050.0, "address": "四川省成都市郫都区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}, {"id": 1640, "pay_status": "paying", "order_sn": "2022113018440116275130", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 18:44:01", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113018440116275130%22%2C%22out_trade_no%22%3A%222022113018440116275130%22%2C%22total_amount%22%3A23800.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A06%3A27&version=1.0&sign=RwEHrB1hDv6YSpaFrmIA9XstTiTnY0Do%2F0J6wazTbUCRbYnNu%2Fz9EYNy%2BijKoEH%2BbCNEC1zEH2AUmCESisf1j30kQHe3usojUGuNBneXpnuEfQ1GS%2FcyRl20hxzucy%2FD4pq4EQgwJEBiBdubi5DgiAMPBPcJYVSMuJodfkMSdz00CmRYFZeZoySEjKKdZ20vTU6Y4qtslpaMbT6cIgO8Iumj2bC0kvD0Bw0EQX8h7RWc4L0f8t020lYVAUnTDfQN2RMriyCOZjYkoThrZGugXzaBsrsNNBZunuWkJD4HDHEO4R69ELb1oHhGhgYT6fyJmnHpb1Aq7m8vc9Uf59zRiw%3D%3D", "post_script": "买100个酣畅家庭菲力牛排10片澳洲生鲜牛肉团购套餐", "order_mount": 23800.0, "address": "山西省太原市小店区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}, {"id": 1643, "pay_status": "paying", "order_sn": "2022113020015316275116", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 20:01:53", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113020015316275116%22%2C%22out_trade_no%22%3A%222022113020015316275116%22%2C%22total_amount%22%3A5083.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A06%3A27&version=1.0&sign=EQ7%2BefIgpJ2A6kBdXT0zJ7la3SEHmCfxvp0%2FgHpK9zIM1u3DodBoY4OeLRD36tPfeKETtXzbomvo9Ee2Czbcsp%2Fj4jsV%2BHbSXc1zrzl%2FG%2BM3qqs7bxWSRIW4%2B5QEyGdL85Tnfd54jy59hN8mX6%2FGNZBokY4wZ5BdYqWcB2W8iBMQTO%2FjWxQ3TNKk18CiLSEl%2FH6SXDfwd%2FakNc1XsvcgK8Atw9xfsSXwVoav4fhfnhjpNmRkLsoOG6cF6lIJrgROI3MuX3rMxlyD%2FxtwQ31W3qONFcQUuFSYqKzp195GcoqoFJ%2FuaVvFtWILwLQgpWhjIkKw9Q64wDcqZYd2p%2F%2BQAQ%3D%3D", "post_script": "帝王蟹", "order_mount": 5083.0, "address": "山西省太原市小店区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}]
+[2022-12-02 20:06:39,580][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 20:06:39,620][mysql_util.py44][INFO]:sql执行结果：[{'id': 1638, 'order_sn': '2022113018082416275192', 'trade_no': None, 'pay_status': 'paying', 'post_script': '123', 'order_mount': 5050.0, 'pay_time': None, 'address': '四川省成都市郫都区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 18, 8, 24, 978320), 'user_id': 162751}, {'id': 1640, 'order_sn': '2022113018440116275130', 'trade_no': None, 'pay_status': 'paying', 'post_script': '买100个酣畅家庭菲力牛排10片澳洲生鲜牛肉团购套餐', 'order_mount': 23800.0, 'pay_time': None, 'address': '山西省太原市小店区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 18, 44, 1, 836103), 'user_id': 162751}, {'id': 1643, 'order_sn': '2022113020015316275116', 'trade_no': None, 'pay_status': 'paying', 'post_script': '帝王蟹', 'order_mount': 5083.0, 'pay_time': None, 'address': '山西省太原市小店区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 20, 1, 53, 809860), 'user_id': 162751}]
+[2022-12-02 20:09:31,086][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:09:31,086][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:09:31,086][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:09:31,350][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc3NTksImVtYWlsIjpudWxsfQ.Frl9MKTy1Y3Xr4D1G9IGiFNmOp0LkFHkNujLZ6BufwU"}
+[2022-12-02 20:09:31,352][mysql_util.py31][INFO]:执行sql：select id from trade_orderinfo where singer_mobile = 17612345677 order by add_time desc limit 1;
+[2022-12-02 20:09:31,393][mysql_util.py35][INFO]:sql执行结果：{'id': 1643}
+[2022-12-02 20:09:31,393][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/1643/
+[2022-12-02 20:09:31,394][rest_client.py49][INFO]:接口请求的方法>>>DELETE
+[2022-12-02 20:09:31,394][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc3NTksImVtYWlsIjpudWxsfQ.Frl9MKTy1Y3Xr4D1G9IGiFNmOp0LkFHkNujLZ6BufwU"
+}
+[2022-12-02 20:09:31,502][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 20:13:23,635][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:13:23,637][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:13:23,638][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:13:23,911][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc5OTEsImVtYWlsIjpudWxsfQ.JmZdYj5dAzaQNxWQZM7Sel9y5uwkiTEMGo0fM1vtE38"}
+[2022-12-02 20:13:23,913][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 20:13:23,913][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 20:13:23,913][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODc5OTEsImVtYWlsIjpudWxsfQ.JmZdYj5dAzaQNxWQZM7Sel9y5uwkiTEMGo0fM1vtE38"
+}
+[2022-12-02 20:13:24,235][response_util.py15][INFO]:接口的返回内容>>>[{"id": 1638, "pay_status": "paying", "order_sn": "2022113018082416275192", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 18:08:24", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113018082416275192%22%2C%22out_trade_no%22%3A%222022113018082416275192%22%2C%22total_amount%22%3A5050.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A13%3A12&version=1.0&sign=CoGckllIc%2BGzSPukJr4z5YRcK6xHby7ynW4lrGyb0wu0zsueKkV29KmUspnARutYzkctYCipu7InJKBw1JqMm4GueRRpYUaeRZHK4VpYVZK15WfIK1MkSbMx7bZvv3KLew7b6XFwDY%2BPUTzRPkbCNCIwzFysqwEGRl7kKTXRVzwCoU%2BDb7kZP7xF5ZTdO77Fx%2Bii8PYXcEmfdIDpxvrRzt0095TDhLonHLXFktCwbaZPZoNkwZCVNeL%2FrUYIh73F%2B5N15SQ5AIO%2FqnJ99rHJVOF3nLc22Zjd%2FDz5l4WurUuZAPrNCidGkiHO9GquvNO5%2FQrjYEIsia4wKJlEaFWr%2FQ%3D%3D", "post_script": "123", "order_mount": 5050.0, "address": "四川省成都市郫都区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}, {"id": 1640, "pay_status": "paying", "order_sn": "2022113018440116275130", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 18:44:01", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113018440116275130%22%2C%22out_trade_no%22%3A%222022113018440116275130%22%2C%22total_amount%22%3A23800.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A13%3A12&version=1.0&sign=PCo7iWtH%2FE%2F8EbyUhAauZ7eyDhkq1FceUU2NlzC%2BbY48Y31ucml%2Fl70DxD39COWNfgYOjKD0STSlBAtj6X0tiZcYSqAkHOBWjdpa9IxwBA%2FqVx%2FoGN0LC1%2Fd%2BFsl%2FgeeNfMDZnI6xNJevrqRHgU5FIcS%2FCLKRf8y7M1NAAoACXkJwy9PlkhGIebeBHYyP0wVd3IMktC%2BKJ1kV5YXoo%2FnMdlESO%2Bc%2Blv3LJ5zxebXqRV%2FBQlA3y%2BSW13nax%2FSAClgDMAntsQ7sRcV5kyotCcXcXGxXue8uP%2FlRQgdy7ZFBImUshoQk%2BNoH7KDsJqbIYVAtNN5AYuJ3oAl28mVosL68w%3D%3D", "post_script": "买100个酣畅家庭菲力牛排10片澳洲生鲜牛肉团购套餐", "order_mount": 23800.0, "address": "山西省太原市小店区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}]
+[2022-12-02 20:13:24,235][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 20:13:24,291][mysql_util.py44][INFO]:sql执行结果：[{'id': 1638, 'order_sn': '2022113018082416275192', 'trade_no': None, 'pay_status': 'paying', 'post_script': '123', 'order_mount': 5050.0, 'pay_time': None, 'address': '四川省成都市郫都区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 18, 8, 24, 978320), 'user_id': 162751}, {'id': 1640, 'order_sn': '2022113018440116275130', 'trade_no': None, 'pay_status': 'paying', 'post_script': '买100个酣畅家庭菲力牛排10片澳洲生鲜牛肉团购套餐', 'order_mount': 23800.0, 'pay_time': None, 'address': '山西省太原市小店区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 18, 44, 1, 836103), 'user_id': 162751}]
+[2022-12-02 20:13:32,349][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:13:32,349][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:13:32,349][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:13:32,573][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgwMDAsImVtYWlsIjpudWxsfQ.gQ0MUYwoTh0y2HLTxnlR7GPrZBL01-LtsNl4QJNPI5g"}
+[2022-12-02 20:13:32,575][mysql_util.py31][INFO]:执行sql：select id from trade_orderinfo where singer_mobile = 17612345677 order by add_time desc limit 1;
+[2022-12-02 20:13:32,613][mysql_util.py35][INFO]:sql执行结果：{'id': 1640}
+[2022-12-02 20:13:32,613][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/1640/
+[2022-12-02 20:13:32,613][rest_client.py49][INFO]:接口请求的方法>>>DELETE
+[2022-12-02 20:13:32,613][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgwMDAsImVtYWlsIjpudWxsfQ.gQ0MUYwoTh0y2HLTxnlR7GPrZBL01-LtsNl4QJNPI5g"
+}
+[2022-12-02 20:13:32,723][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 20:13:43,401][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:13:43,401][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:13:43,401][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:13:43,638][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgwMTEsImVtYWlsIjpudWxsfQ.CSrW4VVtcGFkj99G6RV2oTyk-w7laRzlm6qiH-HRj58"}
+[2022-12-02 20:13:43,639][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 20:13:43,639][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 20:13:43,639][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgwMTEsImVtYWlsIjpudWxsfQ.CSrW4VVtcGFkj99G6RV2oTyk-w7laRzlm6qiH-HRj58"
+}
+[2022-12-02 20:13:43,831][response_util.py15][INFO]:接口的返回内容>>>[{"id": 1638, "pay_status": "paying", "order_sn": "2022113018082416275192", "trade_no": null, "pay_time": null, "add_time": "2022-11-30 18:08:24", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022113018082416275192%22%2C%22out_trade_no%22%3A%222022113018082416275192%22%2C%22total_amount%22%3A5050.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A13%3A31&version=1.0&sign=WKReAycQLnWk2%2FZzL41AD1NzKRGbpWzO6fRRdoDVwleCdte7OeL%2FuxgW1QnUdliD1qFAfYD%2B0Q6DAYd281CU6RqAHFN%2Ff7BQTFC3Px3s4qixdy0yoGmIA9f5Ha4fepReT9817EjyTXOUMAMARvr1CAz7LmPCb0D6q8m3P9vMtl4UpOqiObi26ZdlEf54iKKRm5wGb9oHqMbLWUZHJYwqF9GjBapB5mF6tuHeYjgQfYqQ2XRa8cEuhQI4g8GAhsdJayXl%2F1gDHiFYKNe12QZjYEovhJl4rxVRoTqk5O546mt2QKQmdcSvHu9iwAYz3R3EnmFtT9ELxNUCc1FXWD3pgw%3D%3D", "post_script": "123", "order_mount": 5050.0, "address": "四川省成都市郫都区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}]
+[2022-12-02 20:13:43,831][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 20:13:43,875][mysql_util.py44][INFO]:sql执行结果：[{'id': 1638, 'order_sn': '2022113018082416275192', 'trade_no': None, 'pay_status': 'paying', 'post_script': '123', 'order_mount': 5050.0, 'pay_time': None, 'address': '四川省成都市郫都区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 11, 30, 18, 8, 24, 978320), 'user_id': 162751}]
+[2022-12-02 20:15:56,987][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:15:56,988][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:15:56,988][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:15:57,213][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgxNDUsImVtYWlsIjpudWxsfQ.4eQZqyH4UcTqchEDsNoWaY2uSBREl_EG0cEiUqBvpV8"}
+[2022-12-02 20:15:57,214][mysql_util.py31][INFO]:执行sql：select id from trade_orderinfo where singer_mobile = 17612345677 order by add_time desc limit 1;
+[2022-12-02 20:15:57,252][mysql_util.py35][INFO]:sql执行结果：{'id': 1638}
+[2022-12-02 20:15:57,252][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/1638/
+[2022-12-02 20:15:57,252][rest_client.py49][INFO]:接口请求的方法>>>DELETE
+[2022-12-02 20:15:57,252][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgxNDUsImVtYWlsIjpudWxsfQ.4eQZqyH4UcTqchEDsNoWaY2uSBREl_EG0cEiUqBvpV8"
+}
+[2022-12-02 20:15:57,366][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 20:16:52,703][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:16:52,703][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:16:52,703][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:16:52,975][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyMDAsImVtYWlsIjpudWxsfQ.26_uJZGlgMPWecNNn7zH0DPJPmmvkPN5w-nULmC6g24"}
+[2022-12-02 20:16:52,976][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 20:16:52,976][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 20:16:52,976][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyMDAsImVtYWlsIjpudWxsfQ.26_uJZGlgMPWecNNn7zH0DPJPmmvkPN5w-nULmC6g24"
+}
+[2022-12-02 20:16:53,124][response_util.py15][INFO]:接口的返回内容>>>[]
+[2022-12-02 20:16:53,124][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 20:16:53,166][mysql_util.py44][INFO]:sql执行结果：()
+[2022-12-02 20:17:41,424][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:17:41,425][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:17:41,425][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:17:41,652][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyNDksImVtYWlsIjpudWxsfQ.5AEfhGPZTisVTSOKTGJ2Qpya6F-V9r2-00wcwnaka1k"}
+[2022-12-02 20:17:41,653][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 20:17:41,653][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 20:17:41,653][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyNDksImVtYWlsIjpudWxsfQ.5AEfhGPZTisVTSOKTGJ2Qpya6F-V9r2-00wcwnaka1k"
+}
+[2022-12-02 20:17:41,900][response_util.py15][INFO]:接口的返回内容>>>[{"id": 1646, "pay_status": "paying", "order_sn": "2022120220171916275128", "trade_no": null, "pay_time": null, "add_time": "2022-12-02 20:17:19", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022120220171916275128%22%2C%22out_trade_no%22%3A%222022120220171916275128%22%2C%22total_amount%22%3A4995.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+20%3A17%3A29&version=1.0&sign=DQALx9FbERTH4SmV8Cflf9tTSwegSXBu41caym%2FpE63YcDy2Y3jwjorOmLm6xupPOASsEnM%2BHXDz73%2FrVEp3s6W9ow4mI0ZTc2OZ3oIRE7%2BW0li%2B14Q5ZdPOeVkYiaRYeq7SrM6nUXc9fDtCgwX6rj3HgaavVzfwuA1SdappBFA6XaulzDVi0u8LZPxNG0MB1eRbWDzR%2FaKXNyIDqkm6WZ1cQha%2FKVPn8UaVD7n30GT5inNI5Jz1Xw7BU%2BCZHdA6kgo8g781mGzymq1bS7EzcJTQ9SBxPoODrJxFQF1ZI%2BlpcyQuT5hUqc%2F6jG7KCqys4%2FG6LzlqyNU4rdfRphWuvg%3D%3D", "post_script": "123", "order_mount": 4995.0, "address": "山西省太原市小店区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}]
+[2022-12-02 20:17:41,900][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 20:17:41,956][mysql_util.py44][INFO]:sql执行结果：[{'id': 1646, 'order_sn': '2022120220171916275128', 'trade_no': None, 'pay_status': 'paying', 'post_script': '123', 'order_mount': 4995.0, 'pay_time': None, 'address': '山西省太原市小店区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 12, 2, 20, 17, 19, 971520), 'user_id': 162751}]
+[2022-12-02 20:17:47,253][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:17:47,253][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:17:47,253][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:17:47,489][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyNTUsImVtYWlsIjpudWxsfQ.H5mio57M2W0x-CP4-XIey-y0jJRyvIwCc81DmY8_P10"}
+[2022-12-02 20:17:47,491][mysql_util.py31][INFO]:执行sql：select id from trade_orderinfo where singer_mobile = 17612345677 order by add_time desc limit 1;
+[2022-12-02 20:17:47,531][mysql_util.py35][INFO]:sql执行结果：{'id': 1646}
+[2022-12-02 20:17:47,531][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/1646/
+[2022-12-02 20:17:47,531][rest_client.py49][INFO]:接口请求的方法>>>DELETE
+[2022-12-02 20:17:47,532][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODgyNTUsImVtYWlsIjpudWxsfQ.H5mio57M2W0x-CP4-XIey-y0jJRyvIwCc81DmY8_P10"
+}
+[2022-12-02 20:17:47,648][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 20:43:19,370][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 20:43:19,382][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 20:43:19,382][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 20:43:19,669][response_util.py14][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 20:43:19,670][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1ODk3ODcsImVtYWlsIjpudWxsfQ.46LBMUS_GEJMPzVTDAqFTi0Ci1Sjq78nlpVDm7NBc7c"}
+[2022-12-02 22:44:54,574][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 22:44:54,583][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 22:44:54,583][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 22:44:54,838][response_util.py13][INFO]:接口状态码不是2开头，请检查！
+[2022-12-02 22:44:54,838][response_util.py14][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1OTcwODMsImVtYWlsIjpudWxsfQ.NJPi6U8Q3PkFlfDI77_CdwGw0RKZkapTwaCCCeNRf6w"}
+[2022-12-02 22:46:16,479][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 22:46:16,480][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 22:46:16,480][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 22:46:16,715][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1OTcxNjQsImVtYWlsIjpudWxsfQ.xXQ_8SW_pdvb00sL-YQLujFLY8zScKAM0J4CKxRgHqU"}
+[2022-12-02 22:46:16,716][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-02 22:46:16,716][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-02 22:46:16,716][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1OTcxNjQsImVtYWlsIjpudWxsfQ.xXQ_8SW_pdvb00sL-YQLujFLY8zScKAM0J4CKxRgHqU"
+}
+[2022-12-02 22:46:16,922][response_util.py15][INFO]:接口的返回内容>>>[{"id": 1647, "pay_status": "paying", "order_sn": "2022120220423916275169", "trade_no": null, "pay_time": null, "add_time": "2022-12-02 20:42:39", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022120220423916275169%22%2C%22out_trade_no%22%3A%222022120220423916275169%22%2C%22total_amount%22%3A4995.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-02+22%3A46%3A05&version=1.0&sign=Wg%2FEo6Noo1HeODk9Zogci1s9QRoy2%2Bj7KaIHjqoChpIDT%2F1C3AEUc3Pp94tPMEFate1FwHQ3kYpm1B%2FwqwvSexcqoQ5zvXrHPwKwF0bnx9lkdjWX9X28IWrt9iPgjLdDsISBRlEw6%2FKskDW3iAXQcPrrU6gBQYlcRSnX%2BDjSk%2B%2FqpwN4nbsoA1WqI%2B%2BOUqhg5ZNwi29NsUJPOVpIiwggQk1qqPaU3dDe72VRcEIwGTD38X0vVwhEOmnqhXHy%2FmAtEVAphHGwj0HqjAUGBow87oCX0QkW%2BMHhrfL8orwaMLcbnkKjWDil7q3rYh3CC5OTjbNXfjcoX0VxHSNgYuWnvA%3D%3D", "post_script": "123", "order_mount": 4995.0, "address": "山西省太原市小店区海底路3号", "signer_name": "派大星", "singer_mobile": "17612345677"}]
+[2022-12-02 22:46:16,922][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-02 22:46:16,977][mysql_util.py44][INFO]:sql执行结果：[{'id': 1647, 'order_sn': '2022120220423916275169', 'trade_no': None, 'pay_status': 'paying', 'post_script': '123', 'order_mount': 4995.0, 'pay_time': None, 'address': '山西省太原市小店区海底路3号', 'signer_name': '派大星', 'singer_mobile': '17612345677', 'add_time': datetime.datetime(2022, 12, 2, 20, 42, 39, 741793), 'user_id': 162751}]
+[2022-12-02 22:46:25,263][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-02 22:46:25,263][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-02 22:46:25,263][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-02 22:46:25,499][response_util.py15][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1OTcxNzMsImVtYWlsIjpudWxsfQ.C30A8aJ_Eya8syo5EtqVC551dghaCYVhRY_49O0c4Cw"}
+[2022-12-02 22:46:25,500][mysql_util.py31][INFO]:执行sql：select id from trade_orderinfo where singer_mobile = 17612345677 order by add_time desc limit 1;
+[2022-12-02 22:46:25,543][mysql_util.py35][INFO]:sql执行结果：{'id': 1647}
+[2022-12-02 22:46:25,543][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/1647/
+[2022-12-02 22:46:25,543][rest_client.py49][INFO]:接口请求的方法>>>DELETE
+[2022-12-02 22:46:25,544][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA1OTcxNzMsImVtYWlsIjpudWxsfQ.C30A8aJ_Eya8syo5EtqVC551dghaCYVhRY_49O0c4Cw"
+}

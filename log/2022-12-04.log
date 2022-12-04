@@ -1,0 +1,17 @@
+[2022-12-04 14:01:34,392][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 14:01:34,392][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 14:01:34,392][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 14:01:34,895][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3Mzg0NzksImVtYWlsIjpudWxsfQ.-IEfj37X6sGMsrW-4qU6Amt3-H2Zmc6QC7w2uwHLd6E"}
+[2022-12-04 14:01:34,929][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/orders/
+[2022-12-04 14:01:34,929][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-04 14:01:34,930][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3Mzg0NzksImVtYWlsIjpudWxsfQ.-IEfj37X6sGMsrW-4qU6Amt3-H2Zmc6QC7w2uwHLd6E"
+}
+[2022-12-04 14:01:35,273][response_util.py16][INFO]:接口的返回内容>>>[]
+[2022-12-04 14:01:35,273][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[2022-12-04 14:01:35,313][mysql_util.py44][INFO]:sql执行结果：()

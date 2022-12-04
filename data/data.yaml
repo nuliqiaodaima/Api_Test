@@ -1,0 +1,97 @@
+# 对象写法
+hero:
+  name: 九尾妖狐
+  word: 我们心有灵犀不是吗
+  Hp: 630
+
+hero_new: { name: 九尾妖狐,word: 我们心有灵犀不是吗,Hp: 630 }
+
+# 数组
+heros_name:
+  - 猴子
+  - 卡特
+  - 剑圣
+
+# 组合（数组包字典）
+heros:
+  - name: 扎克
+    word: 我为战斗而生
+    Hp: 700
+
+# 数组（数组包数组）
+heros_name_list:
+  - - 猴子
+    - 卡特
+    - 剑圣
+
+heros_name_word:
+  - - 扎克
+    - 我为战斗而生
+  - - 卡特
+    - 开始大杀特杀吧
+  - - 寒冰
+    - 世间万物皆系于一箭之上
+
+mobile_address: { tel: 17635398157 }
+
+mobile_address_post:
+  # 手机号, appkey
+  - [ 17635398157, 0c818521d38759e1 ]
+
+mobile_address_get:
+  # 手机号, appkey
+  - [ 17635398157, 0c818521d38759e1 ]
+  - [ 19935398157, 0c818521d38759e1 ]
+  - [ 15935398157, 0c818521d38759e1 ]
+
+
+test:
+  name: login_case1
+  request:
+    url: http://X.X.X.X/api/v1/login/
+    method: POST
+    headers:
+      Content-Type: application/json
+    json:
+      username: test
+      password: 123456
+      heros:
+        - name: 扎克
+          word: 我为战斗而生
+          Hp: 700
+mobile_belong_post:
+  mobile: 15985567824
+mobile_head_post:
+  #test_mobile_yaml的headers参数
+  X-APISpace-Token: gi9xffrz2obz386hg0rauqmerby5cbt1
+  Authorization-Type: apikey
+  Content-Type: application/x-www-form-urlencoded
+
+
+json_data: { title: foo,  body: bar,  userId: 2 }
+
+tiktok: {type: json}
+video: {aa1: json}
+allure_dynamic:
+  params: {type: json}
+#  配置allure参数
+  title: 测试秒播线路--动态
+  story: 随机一个视频的story--动态
+
+
+# 实战数据
+# 注册
+test_register: {mobile: 17612345678}
+# 登录
+user_login:
+  # 手机号，密码
+  - [17612345677,12345677]
+
+# 登录封装的账号密码
+login_fixture:
+  mobile: 17612345677
+  password: 12345677
+
+# 购物车
+# 接口测试添加的商品id和数量
+shopping_cart: {nums: 5, goods: 55}
