@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bab1f32-c7a6-41e1-b92b-8c2c66fb35fa" name="Default Changelist" comment="接口自动化框架项目介绍">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/member_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/member_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/2022-12-04.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/2022-12-04.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/membercenter/test_member.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/membercenter/test_member.py" afterDir="false" />
-    </list>
+    <list default="true" id="7bab1f32-c7a6-41e1-b92b-8c2c66fb35fa" name="Default Changelist" comment="添加我的收货地址接口" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +191,7 @@
       <workItem from="1670068083879" duration="1121000" />
       <workItem from="1670069637199" duration="314000" />
       <workItem from="1670069999133" duration="5237000" />
-      <workItem from="1670131046756" duration="4930000" />
+      <workItem from="1670131046756" duration="5234000" />
     </task>
     <task id="LOCAL-00001" summary="初次提交">
       <created>1658157928895</created>
@@ -263,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670134614908</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="添加我的收货地址接口">
+      <created>1670154523275</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670154523275</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +289,8 @@
     <MESSAGE value="增加rerun机制" />
     <MESSAGE value="增加发送消息" />
     <MESSAGE value="接口自动化框架项目介绍" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口自动化框架项目介绍" />
+    <MESSAGE value="添加我的收货地址接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加我的收货地址接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -312,7 +313,7 @@
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_test_user_TestUser_test_register.coverage" NAME="pytest for test_user.TestUser.test_register Coverage Results" MODIFIED="1658240838862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/usercenter" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_case_optimize_class_TestMobile_test_mobile.coverage" NAME="pytest for case_optimize_class.TestMobile.test_mobile Coverage Results" MODIFIED="1668004220380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_case_optimize" />
     <SUITE FILE_PATH="coverage/ApiTest$test_get.coverage" NAME="test_get Coverage Results" MODIFIED="1657438235557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Api_Test$test_member_TestMember_test_check_address__pytest.coverage" NAME="test_member.TestMember.test_check_address 的 pytest 覆盖结果" MODIFIED="1670154266703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/membercenter" />
+    <SUITE FILE_PATH="coverage/Api_Test$test_member_TestMember_test_check_address__pytest.coverage" NAME="test_member.TestMember.test_check_address 的 pytest 覆盖结果" MODIFIED="1670154340570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/membercenter" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_test_parametrize_02_test_parametrize_02.coverage" NAME="pytest for test_parametrize_02.test_parametrize_02 Coverage Results" MODIFIED="1657636401406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/test_parametrize" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_test_params_test_case.coverage" NAME="pytest for test_params.test_case Coverage Results" MODIFIED="1657554187418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/test_fixture" />
     <SUITE FILE_PATH="coverage/Api_Test$test_member_TestMember_test_my_order__pytest.coverage" NAME="test_member.TestMember.test_my_order 的 pytest 覆盖结果" MODIFIED="1670133688562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/membercenter" />
@@ -369,6 +370,7 @@
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_test_module_test_mobile.coverage" NAME="pytest for test_module.test_mobile Coverage Results" MODIFIED="1657465665564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_in_test_get_py.coverage" NAME="pytest in test_get.py Coverage Results" MODIFIED="1657458140422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Api_Test$test_user_TestUser_test_register__pytest.coverage" NAME="test_user.TestUser.test_register 的 pytest 覆盖结果" MODIFIED="1670074856507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/usercenter" />
+    <SUITE FILE_PATH="coverage/Api_Test$test_shopping_TestShopping_test_shopping_cart__pytest.coverage" NAME="test_shopping.TestShopping.test_shopping_cart 的 pytest 覆盖结果" MODIFIED="1670154440536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/shoppingcenter" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_for_test_function_test_mobile.coverage" NAME="pytest for test_function.test_mobile Coverage Results" MODIFIED="1657632913034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/test_fixture" />
     <SUITE FILE_PATH="coverage/ApiTest$read_ini.coverage" NAME="read_ini Coverage Results" MODIFIED="1657718813195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/ApiTest$pytest_in_test_class_py.coverage" NAME="pytest in test_class.py Coverage Results" MODIFIED="1657551752994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/test_fixture" />

@@ -98,3 +98,30 @@
   "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkyMjYsImVtYWlsIjpudWxsfQ.hmzUOe5xliPd6wziV_mIAyZu1w_Q-BNH3s0K3LcdQiA"
 }
 [2022-12-04 19:47:21,868][response_util.py16][INFO]:接口的返回内容>>>{"nums": 5, "goods": 55}
+[2022-12-04 19:51:31,680][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:51:31,681][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:51:31,681][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:51:31,911][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTk0NzYsImVtYWlsIjpudWxsfQ.wl8inKq6B7h0Lxau7mFmHxB-QCqBEq9ui8rLQtVFGbE"}
+[2022-12-04 19:51:31,920][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/address/
+[2022-12-04 19:51:31,920][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:51:31,921][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "addr": "",
+  "address": "\u6d77\u4e2d\u88577\u53f7",
+  "area": "",
+  "city": "\u5317\u4eac\u57ce\u533a",
+  "district": "\u671d\u9633\u533a",
+  "province": "\u5317\u4eac\u5e02",
+  "receiveName": "",
+  "signer_mobile": "17612345677",
+  "signer_name": "\u6d77\u7ef5\u5b9d\u5b9d"
+}
+[2022-12-04 19:51:31,921][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTk0NzYsImVtYWlsIjpudWxsfQ.wl8inKq6B7h0Lxau7mFmHxB-QCqBEq9ui8rLQtVFGbE"
+}
+[2022-12-04 19:51:32,030][response_util.py16][INFO]:接口的返回内容>>>{"id": 1761, "add_time": "2022-12-04 19:51:16", "province": "北京市", "city": "北京城区", "district": "朝阳区", "address": "海中街7号", "signer_name": "海绵宝宝", "signer_mobile": "17612345677"}
