@@ -59,5 +59,13 @@ class Api(RestClient):
     def delete_order(self, orderid, **kwargs):
         return self.delete(f"/orders/{orderid}/", **kwargs)
 
+    # 查询我的收获地址
+    def check_address(self, **kwargs):
+        return self.get("/address/", **kwargs)
+
+    # 查询我的收获地址
+    def add_delivery_address(self, **kwargs):
+        return self.post("/address/", **kwargs)
+
 
 api_util = Api()

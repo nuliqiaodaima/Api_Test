@@ -15,3 +15,86 @@
 [2022-12-04 14:01:35,273][response_util.py16][INFO]:接口的返回内容>>>[]
 [2022-12-04 14:01:35,273][mysql_util.py40][INFO]:执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
 [2022-12-04 14:01:35,313][mysql_util.py44][INFO]:sql执行结果：()
+[2022-12-04 19:33:58,860][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:33:58,868][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:33:58,868][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:33:59,169][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTg0MjMsImVtYWlsIjpudWxsfQ.SrtwXVR14qQD0p2fCmmDUdpIUSLNcrWG7eJ1Mu3J73Y"}
+[2022-12-04 19:33:59,200][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/address/
+[2022-12-04 19:33:59,200][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-04 19:33:59,201][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTg0MjMsImVtYWlsIjpudWxsfQ.SrtwXVR14qQD0p2fCmmDUdpIUSLNcrWG7eJ1Mu3J73Y"
+}
+[2022-12-04 19:33:59,310][response_util.py16][INFO]:接口的返回内容>>>[{"id": 1757, "add_time": "2022-11-29 19:32:09", "province": "山西省", "city": "太原市", "district": "小店区", "address": "海底路3号", "signer_name": "派大星", "signer_mobile": "17612345677"}, {"id": 1759, "add_time": "2022-12-04 19:26:17", "province": "北京市", "city": "北京城区", "district": "朝阳区", "address": "海中街7号", "signer_name": "海绵宝宝", "signer_mobile": "17612345677"}]
+[2022-12-04 19:35:42,544][mysql_util.py31][INFO]:执行sql：select count(1) as banner_num from goods_banner;
+[2022-12-04 19:35:42,583][mysql_util.py35][INFO]:sql执行结果：{'banner_num': 4}
+[2022-12-04 19:35:42,584][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/banners/
+[2022-12-04 19:35:42,584][rest_client.py49][INFO]:接口请求的方法>>>GET
+[2022-12-04 19:35:42,710][response_util.py16][INFO]:接口的返回内容>>>[{"id": 1823, "image": "http://admin.5istudy.online/media/banner/banner3_fzsuGSG.jpg", "index": 1, "add_time": "2022-10-27T08:33:00", "goods": 15}, {"id": 1821, "image": "http://admin.5istudy.online/media/banner/%E6%A1%83%E5%AD%90.jpg", "index": 2, "add_time": "2022-08-23T00:34:00", "goods": 82}, {"id": 1820, "image": "http://admin.5istudy.online/media/banner/banner1.jpg", "index": 3, "add_time": "2021-11-26T13:22:00", "goods": 4}, {"id": 1822, "image": "http://admin.5istudy.online/media/banner/%E5%9B%BE%E7%89%872.png", "index": 3, "add_time": "2022-09-22T10:53:00", "goods": 83}]
+[2022-12-04 19:44:27,767][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:44:27,767][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:44:27,767][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:44:28,050][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkwNTIsImVtYWlsIjpudWxsfQ.DlIl6lBDkE1XX1kyxE8FXsp4yMRKXFKrNCNPUA-yVsI"}
+[2022-12-04 19:44:47,283][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:44:47,283][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:44:47,283][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:44:47,519][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkwNzEsImVtYWlsIjpudWxsfQ.dDO0jTMKn2v2kPIiGXfnbUN7QFIM-Wf86UqWEtc6dak"}
+[2022-12-04 19:45:41,554][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:45:41,554][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:45:41,555][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:45:41,818][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkxMjYsImVtYWlsIjpudWxsfQ.UerhzlS73gQku4wRmviLTq4bE_o6CYfGkd7p5hCN99s"}
+[2022-12-04 19:45:41,829][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/address/
+[2022-12-04 19:45:41,829][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:45:41,829][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "addr": "",
+  "address": "\u6d77\u4e2d\u88577\u53f7",
+  "area": "",
+  "city": "\u5317\u4eac\u57ce\u533a",
+  "district": "\u671d\u9633\u533a",
+  "province": "\u5317\u4eac\u5e02",
+  "receiveName": "",
+  "signer_mobile": "17612345677",
+  "signer_name": "\u6d77\u7ef5\u5b9d\u5b9d"
+}
+[2022-12-04 19:45:41,830][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkxMjYsImVtYWlsIjpudWxsfQ.UerhzlS73gQku4wRmviLTq4bE_o6CYfGkd7p5hCN99s"
+}
+[2022-12-04 19:45:41,942][response_util.py16][INFO]:接口的返回内容>>>{"id": 1760, "add_time": "2022-12-04 19:45:26", "province": "北京市", "city": "北京城区", "district": "朝阳区", "address": "海中街7号", "signer_name": "海绵宝宝", "signer_mobile": "17612345677"}
+[2022-12-04 19:47:21,504][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/login/
+[2022-12-04 19:47:21,504][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:47:21,504][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[2022-12-04 19:47:21,738][response_util.py16][INFO]:接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkyMjYsImVtYWlsIjpudWxsfQ.hmzUOe5xliPd6wziV_mIAyZu1w_Q-BNH3s0K3LcdQiA"}
+[2022-12-04 19:47:21,748][rest_client.py48][INFO]:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[2022-12-04 19:47:21,748][rest_client.py49][INFO]:接口请求的方法>>>POST
+[2022-12-04 19:47:21,748][rest_client.py55][INFO]:接口请求的json参数>>>
+{
+  "nums": 5,
+  "goods": 55
+}
+[2022-12-04 19:47:21,748][rest_client.py59][INFO]:接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA3NTkyMjYsImVtYWlsIjpudWxsfQ.hmzUOe5xliPd6wziV_mIAyZu1w_Q-BNH3s0K3LcdQiA"
+}
+[2022-12-04 19:47:21,868][response_util.py16][INFO]:接口的返回内容>>>{"nums": 5, "goods": 55}

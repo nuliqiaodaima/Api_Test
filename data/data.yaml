@@ -95,3 +95,6 @@ login_fixture:
 # 购物车
 # 接口测试添加的商品id和数量
 shopping_cart: {nums: 5, goods: 55}
+
+# 新增地址
+user_address: {addr: "", address: "海中街7号", area: "", city: "北京城区", district: "朝阳区",province: "北京市",receiveName: "", signer_mobile: "17612345677", signer_name: "海绵宝宝"}
