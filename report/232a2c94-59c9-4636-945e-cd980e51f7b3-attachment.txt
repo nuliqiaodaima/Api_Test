@@ -1,0 +1,17 @@
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:55 接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTIsImVtYWlsIjpudWxsfQ.11kXxlGaogPNlTc5mgKMeLaTKhLHN3hbQpETf8hfTjk"}
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/orders/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>GET
+[32mINFO    [0m log:rest_client.py:59 接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTIsImVtYWlsIjpudWxsfQ.11kXxlGaogPNlTc5mgKMeLaTKhLHN3hbQpETf8hfTjk"
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>[]
+[32mINFO    [0m log:mysql_util.py:40 执行sql：select * from trade_orderinfo where singer_mobile = 17612345677;
+[32mINFO    [0m log:mysql_util.py:44 sql执行结果：()

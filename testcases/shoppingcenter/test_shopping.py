@@ -1,4 +1,5 @@
 import allure
+import pytest
 
 from api.shopping_api import add_shopping_cart, check_shopping_cart
 from testcases.conftest import get_data
@@ -9,6 +10,7 @@ from testcases.shoppingcenter.conftest import get_shop_cart_num
 class TestShopping:
     @allure.story("购物车模块操作")
     @allure.title("购物车添加食品")
+    @pytest.mark.run(order=3)
     def test_shopping_cart(self, login_fixture):
         token = login_fixture[0]
         param = get_data()["shopping_cart"]
@@ -19,6 +21,7 @@ class TestShopping:
 
     @allure.story("购物车模块操作")
     @allure.title("查看购物车")
+    @pytest.mark.run(order=4)
     def test_pay(self, login_fixture):
         token = login_fixture[0]
         username = login_fixture[1]

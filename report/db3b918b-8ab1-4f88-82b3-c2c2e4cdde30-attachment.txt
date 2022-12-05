@@ -1,0 +1,19 @@
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:55 接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTEsImVtYWlsIjpudWxsfQ.D65qeyHIJqCVjTqhG5Ad0Klf9hmTqLygRnd4hoO_yaI"}
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>GET
+[32mINFO    [0m log:rest_client.py:59 接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTEsImVtYWlsIjpudWxsfQ.D65qeyHIJqCVjTqhG5Ad0Klf9hmTqLygRnd4hoO_yaI"
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>[{"id": 1394, "goods": {"id": 55, "category": {"id": 11, "sub_cat": [], "add_time": "2019-11-19 13:21:56", "name": "蟹/贝", "code": "xb", "desc": "", "category_type": 3, "is_tab": false, "parent_category": 7}, "images": [{"image": "http://admin.5istudy.online/media/%E5%B8%9D%E7%8E%8B%E8%9F%B92.jpg"}], "add_time": "2021-06-08 17:12:00", "goods_sn": "6968", "name": "帝王蟹", "click_num": 777, "sold_num": 589, "fav_num": 999, "goods_num": 58, "market_price": 1250.0, "shop_price": 999.0, "goods_brief": "鲜甜美味帝王蟹，鲜活现货！快来抢购吧！", "goods_desc": "帝王蟹又名石蟹或岩蟹，即石蟹科的甲壳类，不是真正的螃蟹，它们主要分布在寒冷的海域。因其体型巨大而得名，素有“蟹中之王”的美誉。", "ship_free": true, "goods_front_image": "http://admin.5istudy.online/media/goods/images/%E5%B8%9D%E7%8E%8B%E8%9F%B9.jpg", "is_new": true, "is_hot": true}, "nums": 10, "add_time": "2022-12-04T19:47:06.214053", "user": 162751}]
+[32mINFO    [0m log:mysql_util.py:31 执行sql：select id from users_userprofile where mobile = '17612345677';
+[32mINFO    [0m log:mysql_util.py:35 sql执行结果：{'id': 162751}
+[32mINFO    [0m log:mysql_util.py:31 执行sql：select nums from trade_shoppingcart where user_id = 162751 and goods_id = 55;
+[32mINFO    [0m log:mysql_util.py:35 sql执行结果：{'nums': 10}

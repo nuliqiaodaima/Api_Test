@@ -31,6 +31,7 @@ class TestUser:
     @pytest.mark.parametrize("username,password", get_data()["user_login"])
     @allure.story("用户登录")
     @allure.title("用户手机号登录")
+    @pytest.mark.run(order=1)
     def test_login(self, username, password):
         print(username, password)
         result = login(username, password)

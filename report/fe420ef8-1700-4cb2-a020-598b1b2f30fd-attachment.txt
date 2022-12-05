@@ -1,0 +1,27 @@
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/login/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:55 接口请求的json参数>>>
+{
+  "username": 17612345677,
+  "password": 12345677
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTMsImVtYWlsIjpudWxsfQ.dTM9FJ19Y63JqGjYyG40c04dFrpV210HQU6gJd1XevU"}
+[32mINFO    [0m log:rest_client.py:48 接口请求的地址>>>http://admin.5istudy.online/address/
+[32mINFO    [0m log:rest_client.py:49 接口请求的方法>>>POST
+[32mINFO    [0m log:rest_client.py:55 接口请求的json参数>>>
+{
+  "addr": "",
+  "address": "海中街7号",
+  "area": "",
+  "city": "北京城区",
+  "district": "朝阳区",
+  "province": "北京市",
+  "receiveName": "",
+  "signer_mobile": "17612345677",
+  "signer_name": "海绵宝宝"
+}
+[32mINFO    [0m log:rest_client.py:59 接口请求的请求头参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjI3NTEsInVzZXJuYW1lIjoiMTc2MTIzNDU2NzciLCJleHAiOjE2NzA4NDY4MTMsImVtYWlsIjpudWxsfQ.dTM9FJ19Y63JqGjYyG40c04dFrpV210HQU6gJd1XevU"
+}
+[32mINFO    [0m log:response_util.py:16 接口的返回内容>>>{"id": 1772, "add_time": "2022-12-05 20:06:53", "province": "北京市", "city": "北京城区", "district": "朝阳区", "address": "海中街7号", "signer_name": "海绵宝宝", "signer_mobile": "17612345677"}
