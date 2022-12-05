@@ -49,11 +49,11 @@ class RestClient:
         logger.info("接口请求的方法>>>{}".format(method))
         # 判断请求参数类型
         if data is not None:
-            logger.info("接口请求的data参数>>>\n{}".format(json.dumps(data, indent=2)))
+            logger.info("接口请求的data参数>>>\n{}".format(json.dumps(data, indent=2, ensure_ascii=False)))
         if json_data is not None:
             # json.dumps(kwargs["json"], indent=2 将获取到的json请求格式化
-            logger.info("接口请求的json参数>>>\n{}".format(json.dumps(json_data, indent=2)))
+            logger.info("接口请求的json参数>>>\n{}".format(json.dumps(json_data, indent=2, ensure_ascii=False)))
         if params is not None:
-            logger.info("接口请求的params参数>>>\n{}".format(json.dumps(params, indent=2)))
+            logger.info("接口请求的params参数>>>\n{}".format(json.dumps(params, indent=2, ensure_ascii=False)))
         if headers is not None:
-            logger.info("接口请求的请求头参数>>>\n{}".format(json.dumps(headers, indent=2)))
+            logger.info("接口请求的请求头参数>>>\n{}".format(json.dumps(headers, indent=2, ensure_ascii=False)))
